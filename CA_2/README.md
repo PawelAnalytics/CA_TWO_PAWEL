@@ -1,25 +1,38 @@
 
 CA_TWO: 
-
-Primary objective: To design and develop a Data Acquisition and Preprocessing Pipeline.
-Details of assignment brief
-Assessment Task (30%)
-You are required to develop a Data Acquisition and Preprocessing Pipeline of your choice, including data acquisition (API, Web scraping, DB Extract etc.), Extraction of features and Transformations as appropriate, followed by loading into an appropriate database. The focus of the complexity of the pipeline is your choice.
-
-Use Git (e.g. GitHub / Colab) and commit/pin version regularly.
-
-GitHub/GitLab/Colab MUST be used for this project to develop both the artefact and documentation, and any code or material uploaded as a fait accompli will not be credited. Furthermore, any such code not attributed or presented contrary to its originating licence will be the subject of Academic Impropriety investigations.
-If using Colab, it must be shared with your lecturer's @dbs.ie email address as editor, and documentation should be as text cells in line with the code. If using Git, documentation must be in the form of a text document (README.md / HTML / LaTeX) inside the git repository, and the repository must be public
-The repository must be regularly active from week 9.
-The documentation must contain a link to the repository itself, and the repository should be downloaded and submitted on the Moodle link
-Demonstration will be in Wk 12, with submission on the Sunday beforehand
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+I used yfinance library which offers a threaded and Pythonic way to download market data from Yahoo to get stock information, and visualize different aspects of it using Seaborn and Matplotlib. 
+In this exercise I am looking at the data and compering: APPLE, GOOGLE, MICROSOFT, and AMAZON. 
+I handled stock information with pandas, and to analyze basic attributes of the stock. 
 
-I used yfinance library which offers a threaded and Pythonic way to download market data from Yahoo to get stock information, and visualize different aspects of it using Seaborn and Matplotlib
-I handled stock information with pandas, and to analyze basic attributes of the stock
+I have created DB with MongoDB and established connection where data is collected and stored established. 
+
+![Pawel DB1](https://user-images.githubusercontent.com/102731408/208415693-13c374a6-6d30-4ce9-a27a-0dcb98246bba.png)
+
+![Pawel DB2](https://user-images.githubusercontent.com/102731408/208415748-177da95e-4d28-4e2f-8d86-1c4db56180d9.png)
+
+![Pawel DB3](https://user-images.githubusercontent.com/102731408/208415769-ba503c38-6e20-4488-a5b4-08562fe68e4a.png)
+
+![Pawel DB4](https://user-images.githubusercontent.com/102731408/208415801-2d8ba2bd-f488-4713-9985-e44aa2bf674e.png)
+
+
+What was the change in price of the stock overtime?
+The closing price is the last price at which the stock is traded during the regular trading day. A stock’s closing price is the standard benchmark used by investors to track its performance over time.
+
+
+What was the moving average of the various stocks?
+The moving average (MA) is a simple technical analysis tool that smooths out price data by creating a constantly updated average price. The average is taken over a specific period of time, like 10 days, 20 minutes, 30 weeks, or any time period the trader chooses.
 
 
 
-![Pawel DB1](https://user-images.githubusercontent.com/102731408/208413515-7fe0b0ff-b688-4e37-b27b-c83c1925dda2.png)
+What was the daily return of the stock on average?
+Calculate returns and draw distribution
+
+
+What was the correlation between different stocks closing prices?
+Correlation is a statistic that measures the degree to which two variables move in relation to each other which has a value that must fall between -1.0 and +1.0. Correlation measures association, but doesn’t show if x causes y or vice versa — or if the association is caused by a third factor.
+
+
+
+
