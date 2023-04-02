@@ -1,0 +1,15 @@
+Patient,Fever,Sore_Throat,Lost_Sense_Smell,Headache,Bodyache,COVID_19
+1,Y,N,Y,Y,Y,Y
+2,N,N,N,Y,N,N
+3,Y,N,N,N,Y,N
+4,Y,N,Y,Y,Y,Y
+5,N,N,N,Y,N,N
+6,Y,N,N,Y,Y,N
+7,N,Y,Y,N,N,N
+8,N,Y,N,N,Y,N
+9,N,Y,Y,Y,Y,N
+10,Y,Y,N,Y,N,Y
+11,N,Y,N,N,N,N
+12,Y,Y,Y,Y,Y,Y
+13,Y,Y,Y,Y,Y,Y
+14,Y,Y,N,Y,N,Y
